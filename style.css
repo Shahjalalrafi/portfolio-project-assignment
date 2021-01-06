@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* DEFAULT CSS */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Bebas Neue', cursive;
+}
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.half-width{
+    width: 48%;
+    float: left;
+}
+.one-third{
+    width: 31%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+.clear{
+    clear: both;
+    overflow: hidden;
+}
+.highlight{
+    color: #FF8367;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #FF8367;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .5s;
+    border: 2px solid transparent;
+}
+.btn:hover {
+    color: #FF8367;
+    background: #fff;
+    border: 2px solid #FF8367;
+    transition: .5s;
+}
+
+/* HEADER */
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* INTRODUCTION SECTION */
+.introduction-content {
+    padding-top: 120px;
+}
+.introduction-content h1 {
+    font-size: 50px;
+    margin: 0px;
+}
+.introduction-content p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.introduction-img{
+    text-align: right;
+}
+
+/* ABOUT SECTION */
+.about-content{
+    margin-top: 80px;
+}
+.about-content h1{
+    font-size: 40px;
+}
+.about-content p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+/* PROJECET SECTION */
+
+.project{
+    background: #E5E5E5;
+    padding: 100px 0px;
+}
+.project-title{
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+.project-content {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px gray;
+}
+.project-content .project-content-inner{
+    margin-left: 15px;
+}
